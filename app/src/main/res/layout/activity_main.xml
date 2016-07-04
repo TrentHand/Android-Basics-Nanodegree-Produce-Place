@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    tools:context="com.example.android.theproduceplace.MainActivity"
+    android:layout_height="match_parent"
+    android:background="#B2DFDB">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="14sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:text="The Produce Place is a locally owned natural food grocery store located in the heart of Sylvan Park. Opening July 15th, 1988 The Produce Place began its relationship with local farmers and produce growers providing fresh fruits and vegetables to the people of Nashville." />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/produceplace2"
+        android:scaleType="centerInside"
+        android:layout_weight="2"
+        android:adjustViewBounds="true"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:text="produceplace.com \n4000 Murphy Rd, Nashville, TN 37209 \n615-383-2664 \nStore Hours: \nMON-FRI 9AM–6:30PM \nSAT 8AM–6PM"></TextView>
+
+</LinearLayout>
